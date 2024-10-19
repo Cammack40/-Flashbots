@@ -6,7 +6,7 @@ require('dotenv').config();
 // sepolia
 const FLASHBOTS_ENDPOINT = 'https://relay-sepolia.flashbots.net'//change for mainnet
 const CHAIN_ID = 11155111;
-const recipientAddress = ""; // Address where you want to send ERC20 tokens
+const recipientAddress = "0x1caC9135e664bD5bDea15CE7678BA13e75AaE39E"; // 
 const tokenAddress = ""; // Address of the ERC20 token contract
 const amount = ethers.parseUnits("1000", 18); //change accordingly
 
